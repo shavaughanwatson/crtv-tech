@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.projectintrosection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 440px;
+  justify-content: space-between;
+  background-image: url('./assets/imgs/edited/fithub_intro_background.webp'),
+    url('./assets/imgs/edited/homepage_photo-min.jpg');
+  background-repeat: no-repeat;
+  background-position: left center, top left;
+  background-size: 170%;
+  padding: 25px;
+  background-color: #c06d06;
+}
+
+.projectintrotext {
+  width: 40%;
+}
+
+.projectintroheading {
+  font-family: 'Kanit', sans-serif;
+  font-size: 80px;
+  font-weight: 800;
+  font-style: italic;
+  color: whitesmoke;
+}
+
+.projectintrodescription {
+  font-family: 'Prompt', sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  color: whitesmoke;
+}
+
+.projectctabtn {
+  margin-right: 25px;
+  background-color: #e81b1b;
+  margin-top: 12px;
+  color: whitesmoke;
+  font-family: 'Prompt', sans-serif;
+}
+
+.projectinfosection {
+  padding: 25px;
+  background-color: #f06d06;
+}
+
+.projectinfoheading {
+  font-family: 'Kanit', sans-serif;
+  font-size: 36px;
+  font-weight: 800;
+  font-style: italic;
+  color: whitesmoke;
+}
+
+.projectinfodescription {
+  font-family: 'Prompt', sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  color: whitesmoke;
+  margin-top: 16px;
+}
+
+.projectinfosubheading {
+  font-family: 'Prompt', sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+  color: whitesmoke;
+}
+
+.projectpoints {
+  font-family: 'Prompt', sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  color: whitesmoke;
+}
+
+.projectinfopic {
+  width: 50%;
+}
+
+.projectinfotext {
+  width: 50%;
+}
+
+.projectinfoimg {
+  width: 85%;
+}
+
+.projectinfoimg1 {
+  width: 100%;
+}
+
+.projectinfosection {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+  padding: 1em;
+}
+
+.contactbutton {
+  background-color: blue;
+  margin-top: 16px;
+}
+
+@media screen and (max-width: 375px) {
+  .projectintrosection {
+    flex-direction: column-reverse;
+    height: fit-content;
+    background-size: cover;
+    padding: 12px;
+  }
+
+  .projectintrotext {
+    width: 100%;
+  }
+
+  .projectintroheading {
+    font-size: 40px;
+  }
+  .projectinfoheading {
+    font-size: 33px;
+  }
+  .projectintrodescription {
+    font-size: 14px;
+  }
+
+  .projectinfodescription {
+    font-size: 14px;
+  }
+
+  .projectctabtn {
+    margin-top: 12px;
+    color: whitesmoke;
+    font-size: 14px;
+  }
+
+  .projectinfosection {
+    flex-direction: column;
+    padding: 12px;
+  }
+
+  .reverse {
+    flex-direction: column-reverse;
+  }
+
+  .projectinfopic {
+    width: 100%;
+    margin-top: 56px;
+  }
+
+  .projectinfotext {
+    width: 100%;
+  }
+
+  .projectinfoimg {
+    width: 100%;
+  }
+}

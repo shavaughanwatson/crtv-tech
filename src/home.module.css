@@ -1,0 +1,379 @@
+.introsection {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 25px;
+  background-image: url('/src/assets/imgs/edited/intro_background_img.webp');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  background-color: whitesmoke;
+}
+
+.introtext {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.intropic {
+  width: 65%;
+}
+
+.ctabtns {
+  gap: 14px;
+}
+
+.ctabtn1 {
+  background-color: #f15a29;
+  margin-right: 12px;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 600;
+  color: whitesmoke;
+}
+
+.ctabtn1:hover {
+  background-color: #1c75bc;
+  transition: 0.2s;
+}
+
+.ctabtn2 {
+  color: #1c75bc;
+  border: solid 0.5px #1c75bc;
+  margin-right: 12px;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 600;
+}
+
+.fadeImage {
+  width: 100%;
+}
+
+.aboutintrosection {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: whitesmoke;
+}
+
+.aboutintrotext {
+  width: 35%;
+}
+
+.aboutintroheading {
+  font-size: 78px;
+  color: #1c75bc;
+}
+
+.aboutintrotitle {
+  font-size: 28px;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 700;
+  color: #343541;
+}
+.aboutintrodescription {
+  margin-top: 26px;
+}
+
+.slideshow {
+  width: 550px;
+}
+
+.aboutpic {
+  display: flex;
+  justify-content: center;
+}
+
+.servicesection {
+  margin-top: 100px;
+}
+
+.serviceimg {
+  height: 35px;
+}
+.servicetitle {
+  text-align: center;
+  font-size: 46px;
+}
+
+.servicedescrip {
+  text-align: center;
+  margin-bottom: 66px;
+}
+
+.serviceList {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+}
+
+.projectsection {
+  margin-top: 100px;
+  padding: 25px;
+  background-color: whitesmoke;
+}
+
+.projecttitle {
+  text-align: center;
+  font-size: 80px;
+}
+
+.projectdescrp {
+  text-align: center;
+}
+
+.projectLinks {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  margin-top: 26px;
+
+  overflow-x: scroll; /* Ensure that the scroll functionality remains */
+}
+
+.project,
+.service {
+  width: 25%;
+}
+
+.projectimg {
+  height: 450px;
+}
+
+.projectimg:hover {
+  height: 470px;
+}
+
+.projectimg:hover {
+  transition: 0.2s;
+}
+
+.contactsection {
+  display: flex;
+
+  align-items: center;
+  gap: 12px;
+  margin-top: 45px;
+  padding: 25px;
+  background-image: url('/src/assets/imgs/edited/contact_background.webp');
+  background-color: whitesmoke;
+  background-repeat: no-repeat;
+  background-position: -32vh;
+  background-size: 50%;
+}
+
+.contacttext {
+  width: 35%;
+}
+
+.contactheading {
+  margin-bottom: 12px;
+}
+
+.contactpic {
+  width: 65%;
+}
+
+.contactbutton {
+  margin-top: 16px;
+
+  margin-right: 12px;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 600;
+
+  background-color: #1c75bc;
+}
+
+.contactbutton:hover {
+  background-color: #f15a29;
+  transition: 0.2s;
+}
+
+.email {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+/*----MOBILE-------*/
+@media screen and (max-width: 375px) {
+  .introsection {
+    flex-direction: column-reverse;
+
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 75%;
+    padding: 12px;
+  }
+
+  .introtext {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .introheading {
+    font-size: 26px;
+  }
+
+  .introdescription {
+    font-size: 14px;
+  }
+
+  .intropic {
+    width: 100%;
+    margin-top: 56px;
+  }
+
+  .introimg {
+    width: 100%;
+  }
+
+  .projectsection {
+    margin-top: 45px;
+    padding: 16px;
+    margin-top: 0px;
+  }
+
+  .slideshow {
+    width: 375px;
+  }
+
+  .fadeImage {
+    width: 100%;
+  }
+
+  .serviceList {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .servicedescrip {
+    text-align: center;
+    margin-bottom: 0px;
+  }
+  .projectLinks {
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .projecttitle {
+    font-size: 46px;
+  }
+
+  .service {
+    margin-top: 46px;
+  }
+
+  .project,
+  .service {
+    width: 100%;
+  }
+
+  .projectimg {
+    height: 300px;
+  }
+
+  .projectimg:hover {
+    height: 325px;
+  }
+
+  .aboutintrosection {
+    flex-direction: column;
+    padding: 12px;
+  }
+
+  .aboutintrotext {
+    width: 100%;
+    padding: 0px;
+  }
+
+  .aboutintroheading {
+    font-size: 30px;
+  }
+
+  .aboutintrotitle {
+    font-size: 22px;
+    color: #343541;
+    font-weight: 700;
+  }
+
+  .aboutintrodescription {
+    font-size: 14px;
+    color: #343541;
+  }
+
+  .aboutpic {
+    width: 100%;
+    margin-top: 56px;
+  }
+
+  .aboutimg {
+    width: 100%;
+  }
+
+  .aboutinfosection {
+    flex-direction: column;
+    padding: 12px;
+    gap: 25px;
+    margin-top: 0px;
+  }
+
+  .aboutinfoimg {
+    width: 100%;
+  }
+
+  .aboutinfoheading {
+    font-size: 36px;
+    color: #343541;
+  }
+
+  .aboutinfosubheading {
+    font-size: 26px;
+    line-height: 1.2em;
+    color: #343541;
+  }
+
+  .aboutinfodescription {
+    font-size: 14px;
+    color: #343541;
+  }
+
+  .pro .service,
+  .project {
+    width: 100%;
+  }
+
+  .contactsection {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 100%;
+    background-image: none;
+    margin-top: 0px;
+  }
+
+  .contacttext {
+    width: 100%;
+  }
+
+  .contactheading {
+    font-size: 45px;
+  }
+
+  .contactdescription {
+    font-size: 14px;
+  }
+
+  .contactpic {
+    width: 100%;
+  }
+  .contactimg {
+    width: 100%;
+  }
+}

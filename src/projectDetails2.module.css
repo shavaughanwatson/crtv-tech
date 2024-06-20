@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+.projectintrosection2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 450px;
+  justify-content: space-between;
+  background-image: linear-gradient(#026132ab, #027e40bc),
+    url('./assets/imgs/edited/digiagenda_intro_background.jpg');
+  background-repeat: no-repeat;
+  background-position: center 0px 200px;
+  background-size: cover;
+  padding: 25px;
+}
+
+.projectintrotext2 {
+  width: 40%;
+}
+
+.projectintroheading2 {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 80px;
+  font-weight: 800;
+
+  color: whitesmoke;
+}
+
+.projectintrodescription2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  color: whitesmoke;
+}
+
+.projectctabtn2 {
+  margin-right: 25px;
+  background-color: #00345f;
+  margin-top: 12px;
+  color: whitesmoke;
+  font-family: 'Lato', sans-serif;
+}
+
+.projectinfosection2 {
+  padding: 25px;
+  background-color: #00345f;
+}
+
+.projectinfoheading2 {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 36px;
+  font-weight: 800;
+
+  color: whitesmoke;
+}
+
+.projectinfodescription2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  color: whitesmoke;
+  margin-top: 12px;
+}
+
+.projectinfosubheading2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+  color: whitesmoke;
+}
+
+.projectpoints2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  color: whitesmoke;
+}
+
+.projectinfopic2 {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.projectinfotext2 {
+  width: 50%;
+}
+
+.projectinfoimg2 {
+  width: 100%;
+}
+
+.projectinfoimg12 {
+  width: 75%;
+}
+
+.projectinfosection2 {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+  padding: 1em;
+}
+
+@media screen and (max-width: 375px) {
+  .projectintrosection2 {
+    flex-direction: column-reverse;
+    height: fit-content;
+    background-size: cover;
+    padding: 12px;
+  }
+
+  .projectintrotext2 {
+    width: 100%;
+  }
+
+  .projectintroheading2 {
+    font-size: 40px;
+  }
+  .projectinfoheading2 {
+    font-size: 33px;
+  }
+  .projectintrodescription2 {
+    font-size: 14px;
+  }
+
+  .projectinfodescription2 {
+    font-size: 14px;
+  }
+
+  .projectctabtn2 {
+    margin-top: 12px;
+    color: whitesmoke;
+    font-size: 14px;
+  }
+
+  .projectinfosection2 {
+    flex-direction: column;
+    padding: 12px;
+  }
+
+  .reverse {
+    flex-direction: column-reverse;
+  }
+
+  .projectinfopic2 {
+    width: 100%;
+    margin-top: 56px;
+  }
+
+  .projectinfotext2 {
+    width: 100%;
+  }
+
+  .projectinfoimg2 {
+    width: 100%;
+  }
+
+  .projectinfoimg12 {
+    width: 70%;
+  }
+}
